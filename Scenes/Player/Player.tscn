@@ -227,3 +227,14 @@ deterministic = false
 tree_root = SubResource("AnimationNodeStateMachine_jmcll")
 advance_expression_base_node = NodePath("..")
 anim_player = NodePath("../AnimationPlayer")
+
+[node name="DebugLabel" type="Label" parent="."]
+offset_left = -11.999999
+offset_top = -48.999996
+offset_right = 262.0
+offset_bottom = 353.0
+scale = Vector2(0.09111583, 0.09111583)
+theme_override_font_sizes/font_size = 96
+text = "00000
+00000
+00000"
