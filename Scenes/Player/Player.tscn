@@ -203,6 +203,7 @@ transitions = ["Start", "Grounded", SubResource("AnimationNodeStateMachineTransi
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 0
 script = ExtResource("1_ft8w5")
+fell_off_y = null
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-1, 0)
